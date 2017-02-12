@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7526BF181B2A55C10000F26E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF171B2A55C10000F26E /* main.m */; };
+		7526BF1B1B2A55C10000F26E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF1A1B2A55C10000F26E /* AppDelegate.m */; };
+		7526BF211B2A55C10000F26E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7526BF1F1B2A55C10000F26E /* Main.storyboard */; };
+		7526BF231B2A55C10000F26E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7526BF221B2A55C10000F26E /* Images.xcassets */; };
+		7526BF261B2A55C10000F26E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7526BF241B2A55C10000F26E /* LaunchScreen.xib */; };
+		7526BF3E1B2A55EF0000F26E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF3D1B2A55EF0000F26E /* ViewController.m */; };
+		7526BF421B2A562D0000F26E /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF411B2A562D0000F26E /* Card.m */; };
+		7526BF451B2A58590000F26E /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF441B2A58590000F26E /* Hand.m */; };
+		7526BF481B2A5A800000F26E /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF471B2A5A800000F26E /* Deck.m */; };
+		7526BF4C1B2A68A50000F26E /* TexasHoldemDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF4B1B2A68A50000F26E /* TexasHoldemDealer.m */; };
+		7526BF4F1B2A6DE80000F26E /* TexasHoldemPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF4E1B2A6DE80000F26E /* TexasHoldemPlayer.m */; };
+		7526BF521B2A7A9B0000F26E /* PokerHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF511B2A7A9B0000F26E /* PokerHand.m */; };
+		7526BF541B2A8B360000F26E /* CardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF531B2A8B360000F26E /* CardTests.m */; };
+		7526BF561B2A8B540000F26E /* HandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526BF551B2A8B540000F26E /* HandTests.m */; };
+		75C80C861B2AB23C00A2890E /* DeckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C80C851B2AB23C00A2890E /* DeckTests.m */; };
+		75C80C891B2AB64600A2890E /* TexasHoldemDealerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C80C881B2AB64600A2890E /* TexasHoldemDealerTests.m */; };
+		75C80C8B1B2ABB7800A2890E /* PokerHandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C80C8A1B2ABB7800A2890E /* PokerHandTests.m */; };
+		75C80C8D1B2AC92100A2890E /* TexasHoldemPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C80C8C1B2AC92100A2890E /* TexasHoldemPlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7526BF2C1B2A55C10000F26E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7526BF0A1B2A55C10000F26E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7526BF111B2A55C10000F26E;
+			remoteInfo = "Texas Hold'em";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7526BF121B2A55C10000F26E /* Texas Hold'em.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Texas Hold'em.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7526BF161B2A55C10000F26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7526BF171B2A55C10000F26E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7526BF191B2A55C10000F26E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7526BF1A1B2A55C10000F26E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7526BF201B2A55C10000F26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7526BF221B2A55C10000F26E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7526BF251B2A55C10000F26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7526BF2B1B2A55C10000F26E /* Texas Hold'emTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Texas Hold'emTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7526BF301B2A55C10000F26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7526BF3C1B2A55EF0000F26E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7526BF3D1B2A55EF0000F26E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7526BF401B2A562D0000F26E /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		7526BF411B2A562D0000F26E /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		7526BF431B2A58590000F26E /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		7526BF441B2A58590000F26E /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
+		7526BF461B2A5A800000F26E /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		7526BF471B2A5A800000F26E /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		7526BF4A1B2A68A50000F26E /* TexasHoldemDealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexasHoldemDealer.h; sourceTree = "<group>"; };
+		7526BF4B1B2A68A50000F26E /* TexasHoldemDealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TexasHoldemDealer.m; sourceTree = "<group>"; };
+		7526BF4D1B2A6DE80000F26E /* TexasHoldemPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TexasHoldemPlayer.h; sourceTree = "<group>"; };
+		7526BF4E1B2A6DE80000F26E /* TexasHoldemPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TexasHoldemPlayer.m; sourceTree = "<group>"; };
+		7526BF501B2A7A9B0000F26E /* PokerHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PokerHand.h; sourceTree = "<group>"; };
+		7526BF511B2A7A9B0000F26E /* PokerHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokerHand.m; sourceTree = "<group>"; };
+		7526BF531B2A8B360000F26E /* CardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardTests.m; sourceTree = "<group>"; };
+		7526BF551B2A8B540000F26E /* HandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandTests.m; sourceTree = "<group>"; };
+		75C80C851B2AB23C00A2890E /* DeckTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckTests.m; sourceTree = "<group>"; };
+		75C80C881B2AB64600A2890E /* TexasHoldemDealerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TexasHoldemDealerTests.m; sourceTree = "<group>"; };
+		75C80C8A1B2ABB7800A2890E /* PokerHandTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PokerHandTests.m; sourceTree = "<group>"; };
+		75C80C8C1B2AC92100A2890E /* TexasHoldemPlayerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TexasHoldemPlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7526BF0F1B2A55C10000F26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7526BF281B2A55C10000F26E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7526BF091B2A55C10000F26E = {
+			isa = PBXGroup;
+			children = (
+				7526BF141B2A55C10000F26E /* Texas Hold'em */,
+				7526BF2E1B2A55C10000F26E /* Texas Hold'emTests */,
+				7526BF131B2A55C10000F26E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7526BF131B2A55C10000F26E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7526BF121B2A55C10000F26E /* Texas Hold'em.app */,
+				7526BF2B1B2A55C10000F26E /* Texas Hold'emTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7526BF141B2A55C10000F26E /* Texas Hold'em */ = {
+			isa = PBXGroup;
+			children = (
+				7526BF3B1B2A55EF0000F26E /* Controllers */,
+				7526BF3F1B2A55F40000F26E /* Models */,
+				7526BF191B2A55C10000F26E /* AppDelegate.h */,
+				7526BF1A1B2A55C10000F26E /* AppDelegate.m */,
+				7526BF1F1B2A55C10000F26E /* Main.storyboard */,
+				7526BF221B2A55C10000F26E /* Images.xcassets */,
+				7526BF241B2A55C10000F26E /* LaunchScreen.xib */,
+				7526BF151B2A55C10000F26E /* Supporting Files */,
+			);
+			path = "Texas Hold'em";
+			sourceTree = "<group>";
+		};
+		7526BF151B2A55C10000F26E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7526BF161B2A55C10000F26E /* Info.plist */,
+				7526BF171B2A55C10000F26E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7526BF2E1B2A55C10000F26E /* Texas Hold'emTests */ = {
+			isa = PBXGroup;
+			children = (
+				7526BF531B2A8B360000F26E /* CardTests.m */,
+				7526BF551B2A8B540000F26E /* HandTests.m */,
+				75C80C851B2AB23C00A2890E /* DeckTests.m */,
+				75C80C871B2AB62400A2890E /* Poker */,
+				7526BF2F1B2A55C10000F26E /* Supporting Files */,
+			);
+			path = "Texas Hold'emTests";
+			sourceTree = "<group>";
+		};
+		7526BF2F1B2A55C10000F26E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7526BF301B2A55C10000F26E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7526BF3B1B2A55EF0000F26E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7526BF3C1B2A55EF0000F26E /* ViewController.h */,
+				7526BF3D1B2A55EF0000F26E /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7526BF3F1B2A55F40000F26E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7526BF491B2A685E0000F26E /* Poker */,
+				7526BF401B2A562D0000F26E /* Card.h */,
+				7526BF411B2A562D0000F26E /* Card.m */,
+				7526BF431B2A58590000F26E /* Hand.h */,
+				7526BF441B2A58590000F26E /* Hand.m */,
+				7526BF461B2A5A800000F26E /* Deck.h */,
+				7526BF471B2A5A800000F26E /* Deck.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7526BF491B2A685E0000F26E /* Poker */ = {
+			isa = PBXGroup;
+			children = (
+				7526BF4A1B2A68A50000F26E /* TexasHoldemDealer.h */,
+				7526BF4B1B2A68A50000F26E /* TexasHoldemDealer.m */,
+				7526BF4D1B2A6DE80000F26E /* TexasHoldemPlayer.h */,
+				7526BF4E1B2A6DE80000F26E /* TexasHoldemPlayer.m */,
+				7526BF501B2A7A9B0000F26E /* PokerHand.h */,
+				7526BF511B2A7A9B0000F26E /* PokerHand.m */,
+			);
+			path = Poker;
+			sourceTree = "<group>";
+		};
+		75C80C871B2AB62400A2890E /* Poker */ = {
+			isa = PBXGroup;
+			children = (
+				75C80C881B2AB64600A2890E /* TexasHoldemDealerTests.m */,
+				75C80C8C1B2AC92100A2890E /* TexasHoldemPlayerTests.m */,
+				75C80C8A1B2ABB7800A2890E /* PokerHandTests.m */,
+			);
+			path = Poker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7526BF111B2A55C10000F26E /* Texas Hold'em */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7526BF351B2A55C10000F26E /* Build configuration list for PBXNativeTarget "Texas Hold'em" */;
+			buildPhases = (
+				7526BF0E1B2A55C10000F26E /* Sources */,
+				7526BF0F1B2A55C10000F26E /* Frameworks */,
+				7526BF101B2A55C10000F26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Texas Hold'em";
+			productName = "Texas Hold'em";
+			productReference = 7526BF121B2A55C10000F26E /* Texas Hold'em.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7526BF2A1B2A55C10000F26E /* Texas Hold'emTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7526BF381B2A55C10000F26E /* Build configuration list for PBXNativeTarget "Texas Hold'emTests" */;
+			buildPhases = (
+				7526BF271B2A55C10000F26E /* Sources */,
+				7526BF281B2A55C10000F26E /* Frameworks */,
+				7526BF291B2A55C10000F26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7526BF2D1B2A55C10000F26E /* PBXTargetDependency */,
+			);
+			name = "Texas Hold'emTests";
+			productName = "Texas Hold'emTests";
+			productReference = 7526BF2B1B2A55C10000F26E /* Texas Hold'emTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7526BF0A1B2A55C10000F26E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Patreon;
+				TargetAttributes = {
+					7526BF111B2A55C10000F26E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					7526BF2A1B2A55C10000F26E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 7526BF111B2A55C10000F26E;
+					};
+				};
+			};
+			buildConfigurationList = 7526BF0D1B2A55C10000F26E /* Build configuration list for PBXProject "Texas Hold'em" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7526BF091B2A55C10000F26E;
+			productRefGroup = 7526BF131B2A55C10000F26E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7526BF111B2A55C10000F26E /* Texas Hold'em */,
+				7526BF2A1B2A55C10000F26E /* Texas Hold'emTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7526BF101B2A55C10000F26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7526BF211B2A55C10000F26E /* Main.storyboard in Resources */,
+				7526BF261B2A55C10000F26E /* LaunchScreen.xib in Resources */,
+				7526BF231B2A55C10000F26E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7526BF291B2A55C10000F26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7526BF0E1B2A55C10000F26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7526BF451B2A58590000F26E /* Hand.m in Sources */,
+				7526BF4F1B2A6DE80000F26E /* TexasHoldemPlayer.m in Sources */,
+				7526BF1B1B2A55C10000F26E /* AppDelegate.m in Sources */,
+				7526BF4C1B2A68A50000F26E /* TexasHoldemDealer.m in Sources */,
+				7526BF521B2A7A9B0000F26E /* PokerHand.m in Sources */,
+				7526BF3E1B2A55EF0000F26E /* ViewController.m in Sources */,
+				7526BF181B2A55C10000F26E /* main.m in Sources */,
+				7526BF481B2A5A800000F26E /* Deck.m in Sources */,
+				7526BF421B2A562D0000F26E /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7526BF271B2A55C10000F26E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C80C861B2AB23C00A2890E /* DeckTests.m in Sources */,
+				75C80C8B1B2ABB7800A2890E /* PokerHandTests.m in Sources */,
+				75C80C891B2AB64600A2890E /* TexasHoldemDealerTests.m in Sources */,
+				7526BF561B2A8B540000F26E /* HandTests.m in Sources */,
+				7526BF541B2A8B360000F26E /* CardTests.m in Sources */,
+				75C80C8D1B2AC92100A2890E /* TexasHoldemPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7526BF2D1B2A55C10000F26E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7526BF111B2A55C10000F26E /* Texas Hold'em */;
+			targetProxy = 7526BF2C1B2A55C10000F26E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7526BF1F1B2A55C10000F26E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7526BF201B2A55C10000F26E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7526BF241B2A55C10000F26E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7526BF251B2A55C10000F26E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7526BF331B2A55C10000F26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7526BF341B2A55C10000F26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7526BF361B2A55C10000F26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Texas Hold'em/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7526BF371B2A55C10000F26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Texas Hold'em/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7526BF391B2A55C10000F26E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Texas Hold'emTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Texas Hold'em.app/Texas Hold'em";
+			};
+			name = Debug;
+		};
+		7526BF3A1B2A55C10000F26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Texas Hold'emTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Texas Hold'em.app/Texas Hold'em";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7526BF0D1B2A55C10000F26E /* Build configuration list for PBXProject "Texas Hold'em" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7526BF331B2A55C10000F26E /* Debug */,
+				7526BF341B2A55C10000F26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7526BF351B2A55C10000F26E /* Build configuration list for PBXNativeTarget "Texas Hold'em" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7526BF361B2A55C10000F26E /* Debug */,
+				7526BF371B2A55C10000F26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7526BF381B2A55C10000F26E /* Build configuration list for PBXNativeTarget "Texas Hold'emTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7526BF391B2A55C10000F26E /* Debug */,
+				7526BF3A1B2A55C10000F26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7526BF0A1B2A55C10000F26E /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AC1D48B5-B58A-47D7-8BC7-362616EEE381</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Texas Hold'em</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C449E4927B1FC06F5098B3E1D7537B68EF44D8BF</key>
+		<string>github.com:Patreon/patreon_interview_ios_poker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Texas Hold'em/Texas Hold'em.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C449E4927B1FC06F5098B3E1D7537B68EF44D8BF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Patreon/patreon_interview_ios_poker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C449E4927B1FC06F5098B3E1D7537B68EF44D8BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C449E4927B1FC06F5098B3E1D7537B68EF44D8BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>patreon_interview_ios_poker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
